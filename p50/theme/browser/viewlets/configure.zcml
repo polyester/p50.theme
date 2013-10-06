@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="p50.theme">
+
+    <include package="Products.CMFCore" file="permissions.zcml"/>
+
+    <browser:viewlet
+        name="p50.theme.documentactions"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".content.DocumentActionsViewlet"
+        permission="zope2.View"
+        />
+
+  <browser:viewlet
+      for="*"
+      name="p50.theme.searchbox"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class="plone.app.layout.viewlets.common.SearchBoxViewlet"
+      template="p50_searchbox.pt"
+      permission="zope2.View"
+      />
+
+</configure>

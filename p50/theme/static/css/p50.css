@@ -1,0 +1,410 @@
+body
+{
+    line-height: 180%;
+}
+
+#payoff
+{
+    float: right;
+    color: #0083be;
+    font-size: 4em;
+    letter-spacing: 0.05em;
+    font-family: "aerovias_brasil_nfregular", Arial,Helvetica,sans-serif;
+    position: absolute; right: 1em; bottom: 25px;
+}
+#logo
+{
+    font-size: 7em;
+    letter-spacing: 0.1em;
+    color: #0083be;
+    font-weight: bold;
+    font-family: "aerovias_brasil_nfregular", Arial,Helvetica,sans-serif;
+    -webkit-text-stroke: 1px rgba(0,0,0,0.1);
+    padding: 1em 0 1em 0.8em;
+
+}
+
+#logo a {display:block; width:100%;
+color: #0083be;}
+@media all and (max-width: 940px) {
+    #payoff {position: relative;}
+}
+
+.state-published {
+    color: black !important;
+}
+
+#sections-wrapper
+{
+    background-color: #0083be;
+    color: white;
+}
+
+div.position-1\:4 {
+    margin-left: -74.875%;
+}
+
+#portal-column-content{
+ /*   border-right: 2px dashed black;
+    border-left: 2px dashed black; */
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#nav
+{
+    font-size: 140%;
+    background-color: #0083be;
+    font-weight: bold;
+}
+
+#nav a:hover, #nav li.selected a {
+    background-color: transparent;
+    color: #B3B3B3;
+}
+
+#portal-breadcrumbs
+{
+    font-size: 110%;
+    margin-left: 1.9em;
+    margin-right: 1.5em;
+    border-bottom: 5px solid #0083be;
+    padding-top: 1.5em;
+    padding-bottom: 0.8em;
+}
+
+#portal-breadcrumbs a:hover
+{
+    text-decoration: underline;
+}
+
+#breadcrumbs-current
+{
+    color: #000000;
+}
+
+.documentActions
+{
+    font-size: 130%;
+    float: right;
+    height: 46px;
+    margin:0.5em 1.0em 0 1.5em;
+}
+
+.documentActions ul
+{
+    height: 46px;
+}
+
+.documentActions ul li i
+{
+    margin-top: 3px;
+}
+
+.icon-white {color: white;}
+
+div.searchSection {
+    display: none;
+}
+
+div#portal-searchbox
+{
+    height: 46px;
+    clear: none;
+    margin: 0 3em 0 0;
+}
+
+#portal-searchbox #searchGadget
+{
+    padding: 4px;
+    margin: 7px;
+}
+
+.LSBox {
+    height: 46px;
+    width: 150px;
+    font-size: 143%;
+}
+
+div.LSBox input#searchGadget 
+{
+     border-radius: 0px
+}
+
+.portlet
+{
+    border-bottom: 5px solid #0083be;
+    padding-bottom: 1em;
+}
+
+dl.portlet dt
+{
+    border-bottom: none;
+    color: black;
+    background-color: white;
+    font-size: 130%;
+    padding: 0em 0.42em;
+}
+
+dl.portlet dt a,
+dl.portlet dt a:hover,
+dl.portlet dt a:link
+{
+    color: black;
+    background-color: white;
+}
+
+.portlet dd
+{
+    border-left: none;
+    border-right: none;
+}
+
+dl.portlet {
+    font-size: 90%;
+}
+
+dl.portlet dd.portletFooter
+{
+    background-color: white;
+    color: black;
+}
+
+dl.portlet dd.portletFooter a,
+dl.portlet dd.portletFooter a:hover,
+dl.portlet dd.portletFooter a:link
+{
+    border-bottom: none;
+    color: black;
+}
+
+dl.portlet li:last-child
+{
+    margin-bottom: 0;
+}
+
+.portletRelatedItems .relatedDiscription
+{
+    margin-top: 0.5em;
+}
+
+.portletRelatedItems img
+{
+    float: right;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#content{
+    margin: -1em 0.25em 2em;
+}
+#content img.tileImage, div.newsImageContainer{
+    margin: 0 0 0.5em 0;
+}
+#content .documentDescription
+{
+	font: bold 14px Arial,Helvetica,sans-serif;
+	color: black;
+	margin-bottom: 1em;
+}
+
+#content h1.documentFirstHeading
+{
+    font-size: 246.2%;
+    line-height: 120%;
+	font-weight: 700;
+	letter-spacing: 0;
+	font-family: "Lato", Arial,Helvetica,sans-serif;
+	-webkit-text-stroke: 1px rgba(212, 14, 22, 0.1);
+	color: #0083be;
+}
+
+#content h1
+{
+    font-size: 170%;
+    line-height: 120%;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
+    -webkit-text-stroke: 1px rgba(212, 14, 22, 0.1);
+    color: #0083be;
+}
+
+#content h2
+{
+    font-size: 124%;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
+    -webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+    color: #0083be;
+}
+
+#content h3
+{
+    font-size: 108%;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-family: "Lato", Arial,Helvetica,sans-serif;
+    -webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+    color: #0083be;
+}
+
+#content h1 a:link, #content h1 a:visited
+{
+	font-weight: 700;
+	letter-spacing: 0;
+	font-family: "Lato", Arial,Helvetica,sans-serif;
+	-webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+	color: #0083be;
+	border-bottom: none;
+}
+
+#category {
+    color: #666666;
+    font-size: 75%;
+    margin-bottom: 1em;
+    text-align: right;
+}
+#category a.link-category, span.selectedTag {
+    background: none;
+    border-radius:0;
+    color: black;
+    padding: 0.25em 0em;
+    border-bottom: 0.1em solid #0083be;
+}
+#category a.link-category:hover {
+    background: none;
+    border-color:none;
+    color: #666 !important;
+}
+#category .separator {
+    display: none;
+}
+#content h2 > a:link , #content h2 > a:visited{
+    font-weight:700;
+    color: #000000;
+}
+#content h3 > a:link {font-weight:normal;}
+#content a:link, dl.portlet a:link {
+	border-bottom: 0.1em solid #000000;
+	font-weight: bold;
+	color: #0083be;
+}
+#content a:visited, dl.portlet a:visited {
+	border-bottom: 0.1em solid #000000;
+	font-weight: bold;
+	color: #0083be;
+}
+#content a:hover, dl.portlet a:hover {
+    color: #666 !important;
+}
+
+#content div.newsImageContainer p.discreet {
+    background-color: rgba(40, 40, 40, 0.7);
+    color: White;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.4em;
+    position: relative;
+    top: -2em;
+    width: 290px;
+}
+
+#content .tileItem {
+    padding-top: 1em;
+    border-top: 2px dashed #0083be;
+}
+
+#content div.row {
+    border-bottom: 5px solid #000;
+}
+#content .tile
+{
+    margin-bottom: 30px;
+    padding-right: 5px;
+    padding-left: 0px;
+    background-color: #fff;
+}
+
+#content .tile img
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#content p.tileBody {
+    margin-bottom: 0;
+}
+#content p.tileFooter {
+    padding-bottom: 3em;
+}
+
+#e67cd60a9dbf43eba1369758d9c813e5
+{
+    border: none;
+}
+
+#fg-base-edit
+{
+    padding-right: 0.5em;
+}
+
+#fg-base-edit input[type=text]
+{
+    display: block;
+    max-width: 100%;
+    padding-rigth: 0.5 em;
+} 
+
+#relatedItemBox dt
+{
+    font-size: 150%;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+#relatedItemBox dd a
+{
+    color: #000000 !important;
+}
+
+#doormat-wrapper
+{
+    background-color: #0083be;
+    font-size: 110%;
+    line-height: 2em;
+}
+
+#doormat #c-doormat-sitemap dl
+{
+    color: #FFFFFF;
+    width: 16%;
+    float: left;
+    min-width: 200px;
+}
+
+p {
+    line-height: 1.6em;
+    margin: 0 0 1em;
+}
+
+.galleria-info-description {
+    font: italic 12px/1.4 arial,sans-serif;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'aerovias_brasil_nfregular';
+    src: url('aerovias_brasil_nf-webfont.eot');
+    src: url('aerovias_brasil_nf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aerovias_brasil_nf-webfont.woff') format('woff'),
+         url('aerovias_brasil_nf-webfont.ttf') format('truetype'),
+         url('aerovias_brasil_nf-webfont.svg#aerovias_brasil_nfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

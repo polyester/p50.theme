@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<object name="portal_css">
+
+ <stylesheet
+    id="++theme++p50.theme/css/style.css"
+    expression="request/HTTP_X_THEME_ENABLED | nothing"
+    media=""
+    />
+  <stylesheet
+    id="++theme++p50.theme/css/p50.css"
+    expression="request/HTTP_X_THEME_ENABLED | nothing"
+    media=""
+    />
+    <stylesheet title="fontawesome" applyPrefix="False" authenticated="False"
+    bundle="" cacheable="False" compression="none" conditionalcomment=""
+    cookable="False" enabled="True" expression=""
+    id="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css"
+    media="" rel="stylesheet" rendering="import"/>
+    <stylesheet title="lato" applyPrefix="False" authenticated="False"
+    bundle="" cacheable="False" compression="none" conditionalcomment=""
+    cookable="False" enabled="True" expression=""
+    id="https://fonts.googleapis.com/css?family=Lato:100,400,700"
+    media="" rel="stylesheet" rendering="import"/>
+    <stylesheet title="fasterone" applyPrefix="False" authenticated="False"
+    bundle="" cacheable="False" compression="none" conditionalcomment=""
+    cookable="False" enabled="True" expression=""
+    id="http://fonts.googleapis.com/css?family=Faster+One"
+    media="" rel="stylesheet" rendering="import"/>
+</object>

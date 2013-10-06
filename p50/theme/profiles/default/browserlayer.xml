@@ -1,0 +1,4 @@
+<layers>
+    <layer name="Plone Paragon Theme"
+           interface="p50.theme.browser.interfaces.IThemeSpecific" />
+</layers>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+
+ <javascript
+    id="++theme++p50.theme/js/function.js"/>
+
+</object>

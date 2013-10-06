@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object>
+ <order manager="plone.portalheader" skinname="*">
+  <viewlet name="p50.theme.searchbox"/>
+ </order>
+ <order manager="plone.portalheader" skinname="*">
+  <viewlet name="p50.theme.documentactions"/>
+ </order>
+ <hidden manager="plone.portalheader" skinname="*">
+  <viewlet name="plone.searchbox"/>
+ </hidden>
+ <hidden manager="plone.belowcontentbody" skinname="*">
+  <viewlet name="plone.abovecontenttitle.documentactions" />
+ </hidden>
+</object>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <theme href="index.html" css:if-content="#visual-portal-wrapper" />
+    <notheme if-path="@@manage-viewlets/" />
+
+    <!--Head-->
+    <copy css:content="html" css:theme="html" attributes="lang dir" />
+    <before css:content="head meta" css:theme="head meta" />
+    <drop css:content="head link[rel='shortcut icon']" />
+    <drop css:content="head link[rel='apple-touch-icon']" />
+    <before css:content="head link" theme="/html/head/title" />
+    <before css:content="head style" theme="/html/head/title" />
+    <replace css:content="head title" css:theme="head title" />
+    <before css:content="head script" css:theme="head script" />
+    <copy css:content="head base" css:theme="head base" />
+
+    <!--Portal Tabs-->
+    <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
+
+    <!--Breadcrumbs-->
+    <replace method="raw" css:content="#portal-breadcrumbs" css:theme="#breadcrumbs" />
+    <drop css:content="#portal-breadcrumbs" />
+
+    <!--Document Actions-->
+    <before method="raw" css:theme="div#payoff" css:content="div.documentActions" />
+    <drop css:content=".documentActions" />
+
+    <!--Search Box-->
+    <before css:theme="div#nav" css:content="#portal-searchbox" />
+
+    <!--Content-->
+    <merge attributes="class" css:content="body" css:theme="body" />
+    <copy attributes="id dir" css:content="body" css:theme="body" />
+    <copy attributes="role" css:content="content" css:theme="contentspace" />
+    <replace css:content="#portal-columns" css:theme="#content" />
+
+    <!--doormat-->
+    <replace css:theme="div#doormat div" css:content="div#c-doormat-sitemap" />
+
+    <!--Viewlets-->
+    <replace css:content="#portal-personaltools" css:theme="#user" />
+    <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
+
+    <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
+
+    <replace css:content="#portal-header p.hiddenStructure" css:theme="#accessibility" />
+
+    <replace css:content-children="#portal-footer" css:theme="#doormat-info" />
+    <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />
+
+    <!--Portlets-->
+    <!-- Control Panel -->
+    <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="#wrapper" />
+
+</rules>
